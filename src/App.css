@@ -1,0 +1,23 @@
+:root {
+   --main-color : #e75e8d ;
+   --darkest-color : #1f2122 ;
+   --second-darkest-color : #27292a ;
+
+
+}
+* {
+    box-sizing: border-box ; 
+}
+/*font style*/
+@import url('https://fonts.googleapis.com/css2?family=Chivo+Mono:wght@300;700&display=swap');
+body {
+    font-family: 'Chivo Mono', monospace;
+    background-color: var(--darkest-color);
+    color: white;
+}
+li {
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+}

@@ -1,0 +1,26 @@
+.card {
+    flex-basis: 23%;
+    padding: 30px 18px;
+    border-radius: 20px;
+    background-color: var(--second-darkest-color);
+    color: white;
+    margin-bottom: 20px;
+}
+.card img {
+    border-radius: 20px;
+}
+.card .card-text {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 25px;
+}
+.card .card-text h6 {
+line-height: 1.5;
+font-weight: bold;
+}
+.card .card-text h6 p {
+line-height: 1.5;
+font-weight: 300;
+}

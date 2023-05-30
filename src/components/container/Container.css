@@ -1,0 +1,5 @@
+.main {
+    background-color: var(--second-darkest-color);
+    padding: 50px;
+    border-radius: calc(50px / 2);
+}

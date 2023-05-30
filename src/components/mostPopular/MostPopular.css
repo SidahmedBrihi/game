@@ -1,0 +1,6 @@
+.mostPopular {
+    padding: 30px 35px;
+    background-color: var(--darkest-color);
+    border-radius: 25px;
+    margin-top: 50px;
+}

@@ -1,0 +1,38 @@
+.hero {
+background-image: url("../../assets/images/banner-bg.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+padding: 80px 50px;
+min-height: 380px;
+border-radius: 25px;
+}
+.hero-title {
+color: white;
+font-size: 20px;
+font-weight: 800;
+}
+.hero-landing {
+font-weight: bold;
+text-align: left;
+font-size: 50px;
+max-width: 600px;
+color: white;
+}
+.hero-landing span {
+color: var(--main-color);
+}
+.hero-link {
+color: white;
+background-color: var(--main-color);
+padding: 10px 30px;
+border-radius: 25px;
+margin-top: 25px;
+display: block;
+width: fit-content;
+}
+.hero-link:hover {
+    color: var(--main-color);
+    background-color: white;
+    transition: .3s;
+    font-weight: 800;
+}
